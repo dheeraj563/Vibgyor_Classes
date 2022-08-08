@@ -5,7 +5,7 @@ import Specification from '../../molecules/specification';
 
 import Image from "../../../assets/appImage.jpg";
 import studentImage from "../../../assets/student.png";
-import studentImageMobile from "../../../assets/studentMobile.png";
+// import studentImageMobile from "../../../assets/studentMobile.png";
 
 import { pdfList, specificationList, TeacherDetails } from "../../../utils";
 
