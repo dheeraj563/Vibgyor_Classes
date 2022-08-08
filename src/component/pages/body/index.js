@@ -5,7 +5,7 @@ import Specification from '../../molecules/specification';
 
 import Image from "../../../assets/appImage.jpg";
 import studentImage from "../../../assets/student.png";
-// import studentImageMobile from "../../../assets/studentMobile.png";
+import studentImageMobile from "../../../assets/studentMobile.png";
 
 import { pdfList, specificationList, TeacherDetails } from "../../../utils";
 
@@ -17,8 +17,7 @@ const Body= () =>{
     <img className='bodyLogoImage' src={Image} alt="appLogo..." />
     <div className='bodyAppName'>VIBGYOR</div>
     <img className='bodyStudentImage' src={studentImage} alt="student..." />
-    {/* <img className='bodyStudentImageMobile' src={studentImageMobile} alt="student..." /> */}
-    <img className='bodyStudentImageMobile' src="https://media.giphy.com/media/6D0dubMvJUtAA/giphy.gif" alt="student..." />
+    <img className='bodyStudentImageMobile' src={studentImageMobile} alt="student..." />
     
     
     <h1 className='bodySpecificationheader'>
