@@ -1,0 +1,55 @@
+.NavbarWrapper {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    background-color: #20232a;
+    border: 1px solid black;
+    padding: 8px 20px;
+    align-items: center;
+    text-align: left;
+}
+
+.navbarlink {
+    font-size: 12px;
+}
+
+.navbarImage {
+    width: 40px;
+    padding-left: 20px;
+}
+.navbarImageName {
+    width: 60px;
+}
+.NavbarRight {
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavbarRight li {
+    list-style-type: none;
+    color: rebeccapurple;
+}
+
+.NavbarRight a {
+    text-decoration: none;
+    color: white;
+}
+
+@media(min-width: 992px) {
+    .navbarImage {
+        width: 60px;
+        padding-left: 40px;
+    }
+    .NavbarWrapper {
+        display: grid;
+        grid-template-columns: 8fr 4fr;
+        background-color: #20232a;
+        border: 1px solid black;
+        padding: 8px 80px;
+        align-items: center;
+        text-align: left;
+    }
+    .navbarlink {
+        font-size: 16px;
+    }
+    
+}

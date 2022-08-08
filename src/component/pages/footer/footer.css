@@ -1,0 +1,38 @@
+.fotterWrapper {
+    display: block;
+    grid-template-columns: 6fr 6fr;
+    padding: 40px 20px;
+    background-color: #0B2149;
+    color: white;
+}
+.fotterOptionList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotterLeftDesc {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px;
+    margin: 0px;
+    color: #8295ba;
+    text-align: left;
+}
+
+.fotterLeftDescpara2 {
+    padding: 12px 0;
+}
+
+@media(min-width: 992px) {
+    .fotterWrapper {
+        display: grid;
+        grid-template-columns: 5fr 7fr;
+        padding: 40px 120px;
+    }
+    .fotterLeftDesc {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 440px;
+        padding: 0;
+    }
+}

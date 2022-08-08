@@ -1,0 +1,14 @@
+.fotterOptionsWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.fotterOptionsTitle {
+    font-size: 16px;
+    padding: 20px;
+}
+
+.fotterOptionslinks {
+    font-size: 12px;
+    padding: 8px;
+}
